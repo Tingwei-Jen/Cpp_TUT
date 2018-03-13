@@ -1,0 +1,8 @@
+/home/tingwei/Cpp_TUT/CMakeList_TUT/build/CMakeFiles/edit_cache.dir
+/home/tingwei/Cpp_TUT/CMakeList_TUT/build/CMakeFiles/rebuild_cache.dir
+/home/tingwei/Cpp_TUT/CMakeList_TUT/build/src/CMakeFiles/edit_cache.dir
+/home/tingwei/Cpp_TUT/CMakeList_TUT/build/src/CMakeFiles/rebuild_cache.dir
+/home/tingwei/Cpp_TUT/CMakeList_TUT/build/src/CMakeFiles/DisplayImage.dir
+/home/tingwei/Cpp_TUT/CMakeList_TUT/build/test/CMakeFiles/edit_cache.dir
+/home/tingwei/Cpp_TUT/CMakeList_TUT/build/test/CMakeFiles/rebuild_cache.dir
+/home/tingwei/Cpp_TUT/CMakeList_TUT/build/test/CMakeFiles/run_main.dir

@@ -8,6 +8,29 @@ void func(const int &a);
 
 const int func2();
 
+class TEST
+{
+public:
+	TEST();
+	void set(int number){
+		this->number = number;
+	}
+	int get() const;   ////说明其不会修改数据成员
+
+private:
+	int number;
+};
+
+TEST::TEST()
+{
+
+}
+int TEST::get() const 
+{
+	// number++; //wrong!!
+	return number;
+}
+
 int main()
 {
 	/*1.*/
@@ -35,11 +58,18 @@ int main()
 	/*4.*/
 	func(50);
 
-
 	/*5.*/
 	const int output = func2();
 	//output = 40;   //wrong!!
 	cout<<"output: "<<output<<endl;
+
+	/*6.*/
+	TEST test;
+	test.set(5000);
+	int g = test.get();
+	cout<<"g: "<<g<<endl;
+
+
 
 	return 0;
 }
