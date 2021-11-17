@@ -18,7 +18,7 @@ Then, condition variable and mutex are used for checking it's the right time to 
 
 And in main.cpp reader class, there is a map to store words and their count. There are two reasons for using std::map. \
 First, when searching the words in buggy.cxx line 47 and line 111 by a for-loop is not efficient because complexity is O(n), and searing in std::map is O(logN). \
-Second, it sort alphabetically automatically in std::map, so sorting is not necessary before lookupwords.\
+Second, it sort alphabetically automatically in std::map, so sorting is not necessary before lookupwords.
 
 In buggy.cxx line 78, std::gets was deprecated in C++11 and removed from C++14. std::getline is used in main.cpp. 
 
