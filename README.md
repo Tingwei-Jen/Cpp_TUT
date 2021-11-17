@@ -16,4 +16,8 @@ Because in line85 there is a while loop waiting for another thread to consume is
 the wordbuffer is added for storing the words in a queue.\
 Then, condition variable and mutex are used for checking it's the right time to push a new word or consume a new word from the queue.\
 
+And in reader class, there is a map to store words and their count. There are two reasons for using std::map. \
+First, when searching the words in line 47 and line 111 by a for loop is not efficient because complexity is O(n), and searing in std::map is O(logN). \
+Second, it sort alphabetically automatically in std::map, so sorting is not necessary before lookupwords.\
+
 
