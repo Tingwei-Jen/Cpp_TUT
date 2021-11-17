@@ -30,4 +30,16 @@ word list: \
 [self-driving:1]\
 [yaya:1] 
 
-Enter a word for look up \
+Enter a word for lookup \
+i \
+SUCCESS: i was present 2 times in the initial word list \
+Enter a word for lookup \
+japan \
+SUCCESS: japan was present 1 times in the initial word list \
+Enter a word for lookup \
+korea \
+korea was NOT found in the initial word list \
+Enter a word for lookup \
+^Z \
+=== Total words found: 2 \
+end program \
