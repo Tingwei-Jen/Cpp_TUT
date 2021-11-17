@@ -42,4 +42,4 @@ korea was NOT found in the initial word list \
 Enter a word for lookup \
 ^Z \
 === Total words found: 2 \
-end program \
+end program 
