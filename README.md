@@ -19,7 +19,7 @@ i \
 like \
 japan \
 yaya \
-end \
+end 
 
 word list: \
 [car:1] \
