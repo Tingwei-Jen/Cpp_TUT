@@ -1,2 +1,13 @@
-# Cpp_TUT
-include Disign pattern, some data structure, and CMakeList project
+#  Building exe.
+```
+mkdir build
+cd build
+cmake ..
+make
+```
+
+# Run the exe.
+```
+./Read_words
+```
+
