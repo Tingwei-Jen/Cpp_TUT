@@ -12,6 +12,8 @@ In line 115, "found" cannot be false anymore.
 ### Changed 
 In new main.cpp, Word is changed from struct to class, and data and count are set as private for protecting.\
 
-Because in line85 there is a while loop waiting for another thread to consume is not efficient and waste cpu, \
+Because in line85 there is a while loop waiting for another thread to consume is not efficient and waste cpu,
 the wordbuffer is added for storing the words in a queue.\
 Then, condition variable and mutex are used for checking it's the right time to push a new word or consume a new word from the queue.\
+
+
