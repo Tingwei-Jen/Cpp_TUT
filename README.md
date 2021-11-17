@@ -20,6 +20,6 @@ Then, condition variable and mutex are used for checking it's the right time to 
 First, when searching the words in buggy.cxx line 47 and line 111 by a for-loop is not efficient because complexity is O(n), and searing in std::map is O(logN). \
 Second, it sort alphabetically automatically in std::map, so sorting is not necessary before lookupwords.
 
--In buggy.cxx line 78, std::gets was deprecated in C++11 and removed from C++14. std::getline is used in main.cpp. 
+-In buggy.cxx line 78, std::gets was deprecated in C++11 and removed from C++14, so std::getline is used in main.cpp. 
 
 -Finally, in buggy.cxx line 21-23, it's not safe and efficient to memory to use static global variables, so in main.cpp there is no static global variables. 
