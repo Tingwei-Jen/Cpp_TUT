@@ -7,7 +7,7 @@ All notable changes and bug fixing to this project will be documented in this fi
 -In buggy.cxx line 40 and 42, s_word is assigned as zero at first element, so we cannot compare it with "end".\
 -In buggy.cxx line 52, found is changed to true when it found the word in the list, but "found" cannot change to false again.\
 -In buggy.cxx line 84, s_word would write and read at the same time, if there is no lock to protect it.\
--In buggy.cxx line 115, "found" cannot be false anymore.
+-In buggy.cxx line 115, "found" cannot be false again if it become true.
 
 ### Changed 
 -In new main.cpp, Word is changed from struct to class, and data and count are set as private for protecting.\
