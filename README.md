@@ -28,6 +28,6 @@ word list: \
 [like:1] \ 
 [love:1] \ 
 [self-driving:1] \
-[yaya:1] \
+[yaya:1] 
 
 Enter a word for look up \
